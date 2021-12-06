@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .App {
   text-align: center;
 }
-
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +35,15 @@
 .App-link {
   color: #61dafb;
 }
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #555b6e;
+  color: whitesmoke;
+  flex-direction: column;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +53,4 @@
     transform: rotate(360deg);
   }
 }
+
